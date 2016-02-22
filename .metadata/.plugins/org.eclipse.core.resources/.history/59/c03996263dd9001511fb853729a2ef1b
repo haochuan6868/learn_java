@@ -1,0 +1,11 @@
+package testArray;
+
+import java.util.ArrayList;
+
+public class ArrayDiff {
+	public static void main(String[] args)
+	{
+		ArrayList objArray = new ArrayList();
+		
+	}
+}

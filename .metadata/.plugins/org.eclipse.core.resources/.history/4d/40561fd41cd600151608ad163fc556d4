@@ -1,0 +1,12 @@
+package test;
+
+public class SearchLastSrting 
+{
+	String strOrig = "Hello world, Hello Reader";
+	int lastIndex = strOrig.lastIndexOf("Hello");
+	if(lastIndex == -1){
+		System.out.println("Hello not found");
+	}else{
+		
+	}
+}

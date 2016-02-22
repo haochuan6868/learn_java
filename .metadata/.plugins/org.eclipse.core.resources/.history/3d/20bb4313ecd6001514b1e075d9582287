@@ -1,0 +1,11 @@
+package test;
+
+import java.util.*;
+
+public class StringFormat {
+	public static void main(String[] args)
+	{
+		double e = Math.E;
+		
+	}
+}

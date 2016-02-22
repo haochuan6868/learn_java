@@ -1,0 +1,11 @@
+package test;
+
+public class StringRegionMatch {
+	public static void main(String[] args)
+	{
+		String first_str = "Welcome to Microsoft";
+		String second_str = "I word with microsoft";
+		boolean match1 = first_str.regionMatches(11, second_str, 12, 9);
+		
+	}
+}

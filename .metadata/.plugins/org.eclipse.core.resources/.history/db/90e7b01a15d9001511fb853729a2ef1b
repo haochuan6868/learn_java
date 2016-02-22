@@ -1,0 +1,13 @@
+package testArray;
+
+import java.util.Arrays;
+
+public class MainClass {
+	public static void main(String args[]) throws Exception {
+		int array[] = { 2,5,-2,6,-3,8,0,-7,-9,4 };
+		Arrays.sort(array);
+		printArray("数组排序结果为", array);
+		int index = Arrays.binarySearch(array, 2);
+		
+	}
+}

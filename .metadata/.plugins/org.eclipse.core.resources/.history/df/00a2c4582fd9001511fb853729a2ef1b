@@ -1,0 +1,9 @@
+package testArray;
+
+public class arrayReverse {
+	public static void main(String[] args)
+	{
+		ArrayList arrayList = new ArrayList();
+		arrayList.add("A");
+	}
+}

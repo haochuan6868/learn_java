@@ -1,0 +1,13 @@
+package test;
+
+public class StringConcatenate {
+	public static void main(String[] args)
+	{
+		long startTime = System.currentTimeMillis();
+		for(int i = 0;i < 50000; i++){
+			String result = "This is" + "testing the" + "difference" + "between" + "String" + "and" + "StringBuffer";
+		}
+		long endTime = System.currentTimeMillis();
+		
+	}
+}
